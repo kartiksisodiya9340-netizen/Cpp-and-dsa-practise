@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double c,f;
+    cout<<"Enter value of celsius to convert in fahrenheit : ";
+    cin>>c;
+    f=(9.0/5.0)*c+32;
+    cout<<f<<endl;
+    
+    return 0;
+}
+
