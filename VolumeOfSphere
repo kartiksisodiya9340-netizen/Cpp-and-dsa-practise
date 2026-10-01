@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double rad;
+    cout << "Enter radius : ";
+    cin >> rad;
+
+    double vol;
+    vol = (4.0 / 3.0) * 3.14159 * (rad * rad * rad);
+
+    cout << "Volume Of Sphere : " << vol << endl;
+
+    return 0;
+}
+
