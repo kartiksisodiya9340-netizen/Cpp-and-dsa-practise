@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int math = 70, che = 80, phy = 78, hin = 69, eng = 98;
+    
+    double avg = (math + che + phy + hin + eng) / 5.0;
+    
+    cout << "Average : " << avg << endl;
+
+    return 0;
+}
+
